@@ -42,7 +42,7 @@ return M.fS(G.my(e,L.bA("\uc785\ucc30\uc870\uac74",x,x,x,x,x,x)),x,G.mx(new N.ab
 var z=a.updateTypes([])
 N.abs.prototype={
 $0:function(){var x=null,w=y.g
-return T.cH(H.a([T.aY(x,19.5,x),G.i4(x,"\uc785\ucc30\uc870\uac74\uc744 \uc120\ud0dd\ud574 \uc8fc\uc138\uc694",x),T.aY(x,24,x),G.ah2(T.aY(x,16,x),H.a([P.ao(["content1Text","Kg (1Kg \ub2f9 \uac00\uaca9)","value","value1"],w,w),P.ao(["content1Text","\ub9e4\ub9bd\ud3d0\uae30\ubb3c","value","value2"],w,w),P.ao(["content1Text","\uc624\ub2c8\ub958(\uc74c\uc2dd\ubb3c)","value","value3"],w,w)],y.o))],y.e),C.ai,C.F,C.z)},
+return T.cH(H.a([T.b1(x,19.5,x),G.i4(x,"\uc785\ucc30\uc870\uac74\uc744 \uc120\ud0dd\ud574 \uc8fc\uc138\uc694",x),T.b1(x,24,x),G.ah2(T.b1(x,16,x),H.a([P.ao(["content1Text","Kg (1Kg \ub2f9 \uac00\uaca9)","value","value1"],w,w),P.ao(["content1Text","\ub9e4\ub9bd\ud3d0\uae30\ubb3c","value","value2"],w,w),P.ao(["content1Text","\uc624\ub2c8\ub958(\uc74c\uc2dd\ubb3c)","value","value3"],w,w)],y.o))],y.e),C.ai,C.F,C.z)},
 $S:26}
 N.abt.prototype={
 $0:function(){var x=null
@@ -57,4 +57,4 @@ w(H.b6,[N.abs,N.abt,N.abr])})()
 H.dn(b.typeUniverse,JSON.parse('{"k2":{"Q":[],"f":[]},"OI":{"a1":["k2"]}}'))
 0
 var y={o:H.A("n<at<i,i>>"),e:H.A("n<f>"),g:H.A("i")}}
-$__dart_deferred_initializers__["pgbDhm0fH7LVT4lAPHb9EPCdixM="] = $__dart_deferred_initializers__.current
+$__dart_deferred_initializers__["gyqP1owgfchovD7HxdpBA2F8LCo="] = $__dart_deferred_initializers__.current
