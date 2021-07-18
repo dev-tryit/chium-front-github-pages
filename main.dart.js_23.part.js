@@ -1,7 +1,7 @@
 self.$__dart_deferred_initializers__=self.$__dart_deferred_initializers__||Object.create(null)
 $__dart_deferred_initializers__.current=function(a,b,c,$){var C,H,J,P,W,G,F={
-avg:function(d,e){var y=new Y.cz(d,e,C.T)
-return new F.cR(y,y,y,y)}},U,Y,X,S,Z,R,E,T,K,L,D,N,B,O,V,Q,M,A
+ajZ:function(d,e){var y=new Y.cp(d,e,C.Q)
+return new F.cX(y,y,y,y)}},U,Y,X,S,Z,R,E,T,K,L,D,N,B,O,V,Q,M,A
 a.setFunctionNamesIfNecessary([F])
 C=c[0]
 H=c[1]
@@ -31,4 +31,4 @@ A=c[24]
 var z=a.updateTypes([])
 0
 0}
-$__dart_deferred_initializers__["jpLdpojKrJUaQKXVLVGLyzsMFik="] = $__dart_deferred_initializers__.current
+$__dart_deferred_initializers__["HZPh603PH8GCIF4qoOCoksawLNQ="] = $__dart_deferred_initializers__.current
