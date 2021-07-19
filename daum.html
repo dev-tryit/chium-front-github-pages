@@ -29,11 +29,16 @@ html,body{ margin:0; padding:0; height:100%; width:100%; }
     }
 
     function postDataToDart(data){
+        console.log(`postDataToDart : ${data}`);
         try {
-            console.log(`postDataToDart : ${data}`);
-            parent.postMessage(data, "*");
+            parent.postMessage(data, "*")
         } catch(err) {
-            console.log(JSON.stringify(err));
+            console.log(`parent.postMessage : ${JSON.stringify(err)}`);
+        }
+        try {
+            onComplete.postMessage(data)
+        } catch(err) {
+            console.log(` onComplete.postMessage : ${JSON.stringify(err)}`);
         }
     }
 
