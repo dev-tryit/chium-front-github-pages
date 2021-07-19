@@ -25,11 +25,10 @@ html,body{ margin:0; padding:0; height:100%; width:100%; }
         window.parent.postMessage(data, "*");
     }
 
-    /*
     window.parent.addEventListener('getDataFromDart', getDataFromDart, false);
     function getDataFromDart(e) {
        print(`getDataFromDart : ${e.data}`);
-    }*/
+    }
 
     daum.postcode.load(function() {
       new daum.Postcode({
