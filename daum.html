@@ -29,8 +29,12 @@ html,body{ margin:0; padding:0; height:100%; width:100%; }
     }
 
     function postDataToDart(data){
-        console.log(`postDataToDart : ${data}`);
-        parent.postMessage(data, "*");
+        try {
+            console.log(`postDataToDart : ${data}`);
+            parent.postMessage(data, "*");
+        } catch(err) {
+            console.log(JSON.stringify(err));
+        }
     }
 
     daum.postcode.load(function() {
