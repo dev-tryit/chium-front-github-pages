@@ -25,10 +25,7 @@ html,body{ margin:0; padding:0; height:100%; width:100%; }
           oncomplete: function(data) {
               let jsonData = JSON.stringify(data);
               console.log(jsonData);
-
-              onComplete(jsonData);
               onComplete.postMessage(jsonData);
-              callbackMessage(jsonData);
           },
           width : '100%',
           height : '100%',
