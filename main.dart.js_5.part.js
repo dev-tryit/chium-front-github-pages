@@ -3840,7 +3840,7 @@ I:function(d,e){return this.e?this.c:C.dL}}
 var z=a.updateTypes(["~()","~(E)","~(iU)","~(n7)","~(eK)","~(eL)","~(v)","~(nw)","~(m3)","~(yN)","~(ln)","~(lm)","~(f4)","~(dM,iO?)","oK()","jF(ad,h?)","~(fi)","al(ax9)","~(dM)","~(eQ,l)","~(i)","bN(ER<bN>)","a3<@>(hw)","dV(dV,or)","~(jc)","oS(xa)","qR(ad,qQ)","a3<~>(b0)","~(o)","~([aN?])","pL(ad,fq)","~(eK,eL)","jc()","~(b0)"])
 B.a6T.prototype={
 $1:function(d){P.mu("postDataToDart : "+H.c(new P.hV([],[]).iJ(d.data,!0)))
-C.az.aa3(window,"getDataFromDart","data")},
+C.az.aa3(window,"data","*")},
 $S:374}
 B.a6S.prototype={
 $1:function(d){return this.a.d},
@@ -4412,4 +4412,4 @@ w($,"aFR","h8",function(){var v=new N.Jq()
 v.a=C.zW
 v.geC().wo(v.ga0g())
 return v})})()}
-$__dart_deferred_initializers__["fU3KBxRFZU0znbtjmSJKGhBIMoQ="] = $__dart_deferred_initializers__.current
+$__dart_deferred_initializers__["76ZmnuHRbB6gJQxktisHqqCNTLQ="] = $__dart_deferred_initializers__.current
