@@ -20,12 +20,20 @@ html,body{ margin:0; padding:0; height:100%; width:100%; }
 <script type="text/javascript">
     var element_layer = document.getElementById('full-size');
 
+    function postDataToDart(data){
+        console.log(`postDataToDart : ${data}`);
+        window.parent.postMessage(data, "*");
+    }
+
+    window.parent.addEventListener('message', getDataFromDart, false);
+    function getDataFromDart(e) {
+       print(`getDataFromDart : ${e.data}`);
+    }
+
     daum.postcode.load(function() {
       new daum.Postcode({
           oncomplete: function(data) {
-              let jsonData = JSON.stringify(data);
-              console.log(jsonData);
-              onComplete.postMessage(jsonData);
+              postDataToDart(JSON.stringify(data));
           },
           width : '100%',
           height : '100%',
