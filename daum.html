@@ -23,8 +23,12 @@ html,body{ margin:0; padding:0; height:100%; width:100%; }
     daum.postcode.load(function() {
       new daum.Postcode({
           oncomplete: function(data) {
-              // 우편번호와 주소 정보를 해당 필드에 넣는다.
-              callbackMessage(JSON.stringify(data));
+              let jsonData = JSON.stringify(data);
+              console.log(jsonData);
+
+              onComplete(jsonData);
+              onComplete.postMessage(jsonData);
+              callbackMessage(jsonData);
           },
           width : '100%',
           height : '100%',
