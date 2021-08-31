@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "1fa5749549dc4f2e234b93b736cc1f03",
+  "assets/AssetManifest.json": "3c0ba297bef0bfa2bac65b7a99cad20e",
 "assets/assets/images/defaultCompany.png": "1262332474aaf31f3e236c76ad64be77",
 "assets/assets%255Cfonts%255CSpoqaHanSansNeo-Bold.ttf": "44915dd2aa382dd0825979edb58f9bce",
 "assets/assets%255Cfonts%255CSpoqaHanSansNeo-Light.ttf": "9bc693a211b5d25df7cdd1dc6400ec14",
@@ -12,10 +12,8 @@ const RESOURCES = {
 "assets/assets%255Cfonts%255CSpoqaHanSansNeo-Thin.ttf": "adf58f1a8984702afc3f42a694e1bd76",
 "assets/FontManifest.json": "006eceb18db3857dd74a0a84ade43a95",
 "assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1",
-"assets/NOTICES": "2c98fd60e3491169c92d8c19cf993dbf",
+"assets/NOTICES": "5c21885ad74e0fa162ac6eab48f3ee85",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
-"assets/packages/fluttertoast/assets/toastify.css": "a85675050054f179444bc5ad70ffc635",
-"assets/packages/fluttertoast/assets/toastify.js": "e7006a0a033d834ef9414d48db3be6fc",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf": "3241d1d9c15448a4da96df05f3292ffe",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-regular-400.ttf": "eaed33dc9678381a55cb5c13edaf241d",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-solid-900.ttf": "ffed6899ceb84c60a1efa51c809a57e4",
@@ -23,9 +21,9 @@ const RESOURCES = {
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"index.html": "6d5a240ecae3d805a378f4919fb95202",
-"/": "6d5a240ecae3d805a378f4919fb95202",
-"main.dart.js": "4b43e4d7d876d64e565b51ea02c767c8",
+"index.html": "c579c0083029677add879772e411d241",
+"/": "c579c0083029677add879772e411d241",
+"main.dart.js": "f11ba83431e7b569ea727edc3bfd6a43",
 "main.dart.js_1.part.js": "c3ef36165fa2eeafffa2b39d0194ca8b",
 "main.dart.js_10.part.js": "80e9633d201c5fde975dc32fc67132a9",
 "main.dart.js_11.part.js": "f57453bf9bdd07444bc6e25ffd4740ad",
